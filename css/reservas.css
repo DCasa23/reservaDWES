@@ -5,9 +5,26 @@ body{
 
 }
 table, th, td {
-    border:1px solid black;
+    margin:0px auto;
+    border-collapse: collapse;
+    border:3px solid rgb(238, 194, 180);
+    
+    text-align: center;
 
   }
 table{
-    width:100%;
+    width:30%;
+}
+#principal{
+    color: olivedrab;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(238, 194, 180);
+}
+table th{
+    background-color:rgb(170, 202, 148);
+
+}
+table td{
+    background-color:rgba(217, 243, 199, 0.767);
 }
